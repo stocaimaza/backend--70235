@@ -1,0 +1,28 @@
+[
+    {
+      "title": "Hacer ejercicio",
+      "description": "Hacer una rutina de 30 minutos de cardio en la mañana.",
+      "completed": false
+    },
+    {
+      "title": "Comprar comida",
+      "description": "Ir al supermercado a comprar productos para la cena de esta semana.",
+      "completed": false
+    },
+    {
+      "title": "Llamar a mamá",
+      "description": "Llamar a mi mamá para saber cómo está y hablar un poco.",
+      "completed": true
+    },
+    {
+      "title": "Estudiar para el examen de matemáticas",
+      "description": "Estudiar el capítulo 4 del libro de matemáticas y hacer los ejercicios del cuaderno.",
+      "completed": false
+    },
+    {
+      "title": "Leer un libro",
+      "description": "Leer al menos 30 páginas del libro 'El Alquimista'.",
+      "completed": true
+    }
+  ]
+  

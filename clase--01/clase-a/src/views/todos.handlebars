@@ -1,0 +1,29 @@
+<div class="container py-5">
+    <h1 class="mb-4"> Lista de Tareas </h1>
+    <div class="list-group">
+        {{#each todos}}
+        <div class="list-group-item">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h3 class="mb-1"> {{title}} </h3>
+                    <p class="mb-1"> {{description}} </p>
+                </div>
+                <div>
+                    {{#if completed}}
+                    <p class="text-success mb-0"> Completado </p>
+                    {{else}}
+                    <p class="text-danger mb-0"> Pendiente </p>
+                    <form action="/todos/{{_id}}/complete" method="POST" class="d-inline-block">
+                        <button type="submit" class="btn btn-success btn-sm"> Marcar como Completado </button>
+                    </form>
+                    {{/if}}
+                    <form action="/todos/{{_id}}/delete" method="POST" class="d-inline-block">
+                        <button type="submit" class="btn btn-danger btn-sm"> Eliminar </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+    <a href="/new" class="btn btn-primary mt-3"> Crear una nueva actividad </a>
+</div>

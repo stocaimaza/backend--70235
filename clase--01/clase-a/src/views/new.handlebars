@@ -1,0 +1,17 @@
+<div class="container py-5">
+    <h2 class="mb-4"> Nuevo Todo </h2>
+    <form action="/todos" method="POST">
+        <div class="mb-3">
+            <label for="title" class="form-label"> Título: </label>
+            <input type="text" name="title" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label for="description" class="form-label"> Descripción: </label>
+            <textarea name="description" class="form-control"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary"> Guardar </button>
+    </form>
+    <a href="/" class="btn btn-primary"> Volver al listado </a>
+</div>
