@@ -1,0 +1,15 @@
+<div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="card" style="width: 30rem;">
+        <div class="card-body">
+            <h1 class="card-title text-center"> Bienvenido a tu perfil </h1>
+            <p class="card-text text-center mb-4"> Nombre: {{user.first_name}} {{user.last_name}} </p>
+            <p class="card-text text-center mb-4"> Email: {{user.email}} </p>
+        
+            <div class="d-grip gap-2 mt-4">
+                <a href="/api/sessions/logout" class="btn btn-danger btn-lg text-white">
+                    Logout
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
