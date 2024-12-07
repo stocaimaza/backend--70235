@@ -35,9 +35,16 @@ app.use("/clientes", clientesRouter);
 
 //¿Que hacemos con las rutas que no coinciden con ningun endpoint? 
 
-app.get("*", (req, res) => {
-    res.status(404).send({message: "No se encuentra nada, este finde llueve"}); 
-})
+// app.get("*", (req, res) => {
+//     res.status(404).send({message: "No se encuentra nada, este finde llueve"}); 
+// })
+
+//Practicamos con el Custom Router: 
+
+import UserRouter from "./routes/user.router.js";
+const userRouter = new UserRouter(); 
+
+app.use("/users", userRouter.getRouter());
 
 app.listen(PUERTO, () => console.log("Trabajando en el PUERTO: 8080"));
 
