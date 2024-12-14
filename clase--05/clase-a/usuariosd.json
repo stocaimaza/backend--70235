@@ -1,0 +1,52 @@
+[
+    {
+        "nombre": "Homer",
+        "apellido": "Simpson",
+        "legajo": 1
+    },
+    {
+        "nombre": "Marge",
+        "apellido": "Simpson",
+        "legajo": 2
+    },
+    {
+        "nombre": "Bart",
+        "apellido": "Simpson",
+        "legajo": 3
+    },
+    {
+        "nombre": "Lisa",
+        "apellido": "Simpson",
+        "legajo": 4
+    },
+    {
+        "nombre": "Maggie",
+        "apellido": "Simpson",
+        "legajo": 5
+    },
+    {
+        "nombre": "Apu",
+        "apellido": "Nahasapeemapetilon",
+        "legajo": 6
+    },
+    {
+        "nombre": "Ned",
+        "apellido": "Flanders",
+        "legajo": 7
+    },
+    {
+        "nombre": "Milhouse",
+        "apellido": "Van Houten",
+        "legajo": 8
+    },
+    {
+        "nombre": "Krusty",
+        "apellido": "El Payaso",
+        "legajo": 9
+    },
+    {
+        "nombre": "Chief",
+        "apellido": "Wiggum",
+        "legajo": 10
+    }
+]

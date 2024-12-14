@@ -1,0 +1,52 @@
+[
+    {
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "legajo": 1001
+    },
+    {
+        "nombre": "María",
+        "apellido": "González",
+        "legajo": 1002
+    },
+    {
+        "nombre": "Carlos",
+        "apellido": "Rodríguez",
+        "legajo": 1003
+    },
+    {
+        "nombre": "Ana",
+        "apellido": "Martínez",
+        "legajo": 1004
+    },
+    {
+        "nombre": "Luis",
+        "apellido": "López",
+        "legajo": 1005
+    },
+    {
+        "nombre": "Laura",
+        "apellido": "Sánchez",
+        "legajo": 1006
+    },
+    {
+        "nombre": "José",
+        "apellido": "Ramírez",
+        "legajo": 1007
+    },
+    {
+        "nombre": "Carmen",
+        "apellido": "Fernández",
+        "legajo": 1008
+    },
+    {
+        "nombre": "David",
+        "apellido": "Gómez",
+        "legajo": 1009
+    },
+    {
+        "nombre": "Isabel",
+        "apellido": "Díaz",
+        "legajo": 1010
+    }
+]
