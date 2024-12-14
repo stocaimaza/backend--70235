@@ -1,0 +1,12 @@
+[
+  {
+    "nombre": "Pistola de Agua",
+    "categoria": "Verano",
+    "precio": 1000
+  },
+  {
+    "nombre": "Pistola Airsoft ",
+    "categoria": "juegos de guerra",
+    "precio": 250
+  }
+]

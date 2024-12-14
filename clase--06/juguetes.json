@@ -1,0 +1,53 @@
+[
+    {
+      "nombre": "Lego City",
+      "categoria": "Construcción",
+      "precio": 29.99
+    },
+    {
+      "nombre": "Barbie Dreamhouse",
+      "categoria": "Muñecas",
+      "precio": 159.99
+    },
+    {
+      "nombre": "Hot Wheels Track Set",
+      "categoria": "Vehículos",
+      "precio": 19.99
+    },
+    {
+      "nombre": "Peluche de Panda",
+      "categoria": "Peluches",
+      "precio": 15.49
+    },
+    {
+      "nombre": "Karaoke para niños",
+      "categoria": "Electrónico",
+      "precio": 39.99
+    },
+    {
+      "nombre": "Puzzle 1000 piezas",
+      "categoria": "Juegos de mesa",
+      "precio": 12.99
+    },
+    {
+      "nombre": "Muñeco de acción Spiderman",
+      "categoria": "Figuras de acción",
+      "precio": 24.99
+    },
+    {
+      "nombre": "Set de Pinturas",
+      "categoria": "Arte y creatividad",
+      "precio": 9.99
+    },
+    {
+      "nombre": "Coche RC Monster Truck",
+      "categoria": "Juguetes electrónicos",
+      "precio": 49.99
+    },
+    {
+      "nombre": "Juego de construcción K'NEX",
+      "categoria": "Construcción",
+      "precio": 39.99
+    }
+  ]
+  
